@@ -1,0 +1,161 @@
+
+.accueil main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+
+/*======================================
+   Hero Area CSS
+========================================*/ 
+.hero-slider {
+	background: #fff;
+	overflow: hidden;
+}
+.hero-slider .single-slider {
+	height: auto;
+	background-image: url('../images/image1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    height: 510px;
+}
+
+.hero-slider .hero-text {
+	padding: 0 30px;
+	margin-top:100px;
+}
+.hero-slider .hero-text h1 {
+	line-height: 50px;
+	font-size: 47px;
+	font-weight: 700;
+	color: #F7941D;
+	margin-bottom: 20px;
+}
+.hero-slider .hero-text h1 span {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 12px;
+	color: #333;
+	font-weight: 700;
+	line-height: initial;
+}
+.hero-slider .hero-text p {
+	color: #333;
+	margin-bottom: 35px;
+}
+.hero-slider .hero-text .button{
+	margin:0;
+}
+.hero-slider .hero-text .btn {
+	color: #fff;
+	background: #333;
+	padding: 13px 30px;
+	line-height: initial;
+	border: none;
+	height: auto;
+	z-index: 0;
+}
+.hero-slider .hero-text .btn:hover{
+	background:#F7941D;
+	color:#fff;
+}
+
+
+/*======================================
+   End Hero Area CSS
+========================================*/ 
+
+
+.accueil section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.accueil h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.accueil p {
+  margin-bottom: 30px;
+  height: 120px;
+
+}
+
+.accueil ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accueil li {
+  margin: 30px;
+  max-width: 300px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #bfbfbf;
+
+}
+
+.accueil img {
+  max-width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #bfbfbf;
+}
+
+.accueil h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  height: 50px;
+
+}
+
+.accueil a {
+  background-color: white;
+  color: #333;
+  appearance: none;
+  border: 2px solid #333;
+  border-radius: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  will-change: transform;
+}
+.accueil a:disabled {
+  pointer-events: none;
+}
+.accueil a:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background-color: #333;
+  color: white;}
+
+.accueil a:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
